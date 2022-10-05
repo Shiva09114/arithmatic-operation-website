@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmatic:Do Add Subtraction Division And Multiplication</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="mainheading">Arithmatic Web</h1>
+    </header>
+    <main>
+        <section>
+            <marquee behavior="alternate" hspace="200px">
+                <H3>Welcome To My Web Page - - - - This Is Made To Perform Arithmatic Operation</H3>
+            </marquee>
+        </section>
+        <br>
+        <br>
+        <section>
+            <table>
+                <tr>
+                    <td style="padding-left: 150px;">
+                        <a href="add.html"><button class="opration"><span class="symbol">+</span> ADDITION</button></a>
+                        <div
+                            style="padding-left: 10px; height: 250px;width: 300px;background-color: rgb(219, 139, 110); border: 2px solid rgb(219, 139, 110) ; border-radius: 20px;  margin-bottom: 100px;">
+                            <p>Addition in math is a process of combining two or more numbers. Addends are the numbers
+                                added, and the result or the final answer we get after the process is called the sum. It
+                                is one of the essential mathematical functions we use in our everyday activities. There
+                                are many situations in which we use to add numbers. One of the most common everyday uses
+                                for adding numbers is when we work with time or money—for example, adding up bills and
+                                receipts.</p>
+                            <!-- <a href="./add.html/#Addition_of_two_number">sdfg</a> -->
+                        </div>
+                    </td>
+                    <td style="padding-left: 150px;">
+                        <a href="sub.html"><button class="opration"><span class="symbol">-</span>
+                                SUBTRACTION</button></a>
+                        <div
+                            style="padding-left: 10px; height: 250px;width: 300px;background-color: rgb(219, 139, 110); border: 2px solid rgb(219, 139, 110) ; border-radius: 20px;  margin-bottom: 100px;">
+                            <p> Like addition, subtraction is also one of the oldest and the most basic arithmetic
+                                operations. The word subtraction is derived from the two words, ‘sub’ and ‘tract,’ which
+                                mean under or below and to pull or carry away, respectively. Therefore, subtraction
+                                means to carry away the lower part. Subtraction is known to mathematicians for more than
+                                6000 years. German Mathematicians first used the symbol of subtraction as markings on
+                                barrels. </p>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding-left: 150px;">
+                        <a href="div.html"><button class="opration"><span class="symbol">÷</span> DIVISION</button></a>
+                        <div
+                            style="padding-left: 10px; height: 200px;width: 300px;background-color: rgb(219, 139, 110); border: 2px solid rgb(219, 139, 110) ; border-radius: 20px;  margin-bottom: 100px;">
+                            <p>In Mathematic the four basic arithmetic operations are addition, subtraction
+                                multiplication, and division. Based on the problem requirement, the type of arithmetic
+                                operation has been chosen. For example, to share 100 chocolates equally among 25
+                                children, we need to divide 100 by 25.Thus, each child will get 4 chocolates. </p>
+                        </div>
+                    </td>
+                    <td style="padding-left: 170px;">
+                        <a href="mul.html"><button class="opration"><span class="symbol">x</span>
+                                MULTIPLICATION</button></a>
+                        <div
+                            style="padding-left: 10px; height: 200px;width: 300px;background-color: rgb(219, 139, 110); border: 2px solid rgb(219, 139, 110) ; border-radius: 20px; margin-bottom: 100px;">
+                            <p> Multiplication is one of the four basic arithmetic operations, alongside addition,
+                                subtraction, and division. In math, multiply means the repeated addition of groups of
+                                equal sizes.Multiplication is represented by the signs cross (×), asterisk (*), or dot
+                                (·). While writing in your notebooks, you are most likely to use the cross. The asterisk
+                                and dot are used in computer languages and algebra (higher mathematics).</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <div id="form">
+                <h2 class="heading" id="Addition_of_two_number">ADDITION OF TWO NUMBERS </h2>
+                <br>
+                <br>
+                <br>
+                <input style="border:5px double black" id="Anumber1" name="Anumber:1" class="input"
+                    placeholder="ENTER YOUR FIRST NUMBER">
+                <br>
+                <input style="border:5px double black" id="Anumber2" name="Anumber:2" class="input"
+                    placeholder="ENTER YOUR SECOND NUMBER">
+                <br>
+                <p> <b> View Result: </b><input onclick="add()" style="border:5px double black" type="submit"></p>
+                <p id="Aresult"></p>
+                <br>
+            </div>
+
+            <div id="form">
+                <h2 class="heading" id="SUBSTRACTIONOF_TWO_NUMBERS">SUBSTRACTION OF TWO NUMBERS </h2>
+                <br>
+                <br>
+                <br>
+                <input style="border:5px double black; width: 400px;" name="number:1" id="Snumber1" class="input"
+                    type="number" placeholder="ENTER NUMBER FROM WHICH YOU HAVE TO SUBTRACT">
+                <br>
+                <input style="border:5px double black;  width: 400px;" name="number:1" id="Snumber2" class="input"
+                    type="number" placeholder="ENTER NUMBER WHICH YOU HAVE TO SUBTRACT">
+                <br>
+                <p> <b> View Result: </b><input style="border:5px double black" onclick="sub()" type="submit"></p>
+                <p id="Sresult"></p>
+                <br>
+            </div>
+            <script>
+
+            </script>
+            <div id="form">
+                <h2 class="heading">DIVISION OF TWO NUMBERS </h2>
+                <br>
+                <br>
+                <br>
+                <input style="border:5px double black" id="Dnumber1" class="input" type="number"
+                    placeholder="ENTER YOUR DIVISOR NUMBER">
+                <br>
+                <input style="border:5px double black" id="Dnumber2" class="input" type="number"
+                    placeholder="ENTER YOUR DIVIDEND NUMBER">
+                <br>
+                <p> <b> View Result: </b><input style="border:5px double black" onclick="div()" type="submit"></p>
+                <p id="Dresult"></p>
+                <br>
+            </div>
+            <script>
+
+            </script>
+            <div id="form">
+                <h2 class="heading">MULTIPLICATION OF TWO NUMBERS </h2>
+                <br>
+                <br>
+                <br>
+                <input style="border:5px double black" id="Mnumber1" class="input" type="number"
+                    placeholder="ENTER YOUR FIRST NUMBER">
+                <br>
+                <input style="border:5px double black" id="Mnumber2" class="input" type="number"
+                    placeholder="ENTER YOUR SECOND NUMBER">
+                <br>
+                <p> <b> View Result: </b><input style="border:5px double black" onclick="Mul()" type="submit"></p>
+                <p id="Mresult"></p>
+                <br>
+            </div>
+            <script>
+
+            </script>
+        </section>
+    </main>
+    <footer>
+        This Website Is Made By SHIVA SINGH
+    </footer>
+
+</body>
+
+</html>
